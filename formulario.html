@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta chaset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+
+	<title>Cat&aacute;logo online - Registrate</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="../css/styles.css" rel="stylesheet" />
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/webshim/minified/extras/modernizr-custom.js"></script>
+
+	<script src="js/webshim/minified/extras/mousepress.js"></script>	
+	<script src="js/webshim/minified/polyfiller.js"></script>
+	<script src="js/js.js"></script>
+
+	<script src="js/enviar.js"></script>
+
+</head>
+<body>
+<header>
+	<div id="titulo">
+		<div id="nombre"><h1>.CatalogoWeb</<h1></div>
+			<div id="social">
+				<a class="imgheader" href="http://www.facebook.com/fredydavid.vergaragiraldo" target="_black"><img src="images/facebook.png" alt="face" /></a>
+				<a class="imgheader" href="http://twitter.com/fdvergara" target="_black"><img src="images/twitter.png" alt="twitter" /></a>
+			</div>
+	
+	</div>
+</header>
+<section id="content">
+<div  id="images">	
+	<nav><ul>
+		<li><a href="../catalogo/">Inicio</a></li>
+		<li><a href="conocenos.html">Quienes somos</a></li>
+		<li><a href="formulario.html">Registrate</a></li>
+	</ul></nav>	
+			<section id="texto">
+				<form  onsubmit="return false;" id="form">
+						<fieldset>
+						<legend>Datos Personales</legend>
+						<div id="mensaje">
+							<div id="cerrar">X</div>
+							¿Desea enviar sus datos?
+						</div>
+						<div class="campos"><label >Nombres*</label><input name="nomb" id="nomb" required  form="form" type="text"   /></div>
+						<div class="campos"><label>Apellidos*</label><input name="apell"  id="apell" required type="text"  form="form" /></div>
+						<div class="campos"><label>Nacimiento*</label><input name="fecha" id="fecha"   required type="date"  form="form" /></div>
+						<div class="campos"><label >E-mail*</label><input name="email" id="email"  required type="email"  form="form" /></div>
+						<div class="campos"><label>Pais*</label><select required="required" name="select" id="select">
+								<option value="">Escoje opcion</option>
+								<option>Colombia</option>
+								<option>Venezuela</option>
+								<option>Ecuador</option>
+								<option>Chile</option>
+								<option>Bolivia</option>
+								<option>Argentina</option>
+							</select></div>
+						<div class="campos"><label>Ciudad/provincia*</label><input  type="text" required="required" name="prov" id="prov">
+								</div>		
+						</fieldset>
+						<fieldset>
+							<legend>Datos de usuario</legend>
+							<div class="campos"><label >Usuario* </label><input name="user" id="user"  required type="text"  form="form" /></div>	
+							<div class="campos"><label >Password* </label><input name="pass" id="pass" required type="password"  form="form" title="Por favor digite carateres letras y numeros"/></div>
+							<div class="campos"><label >Pagina web </label><input name="url"  id="url" type="url" title="Example http://www.mypage.com " form="form" /></div>
+							<div class="campos"><label >Desea recibir notificaciones en su correo?*</label>
+								<input type="radio" id="si" name="preg" value="0" required checked /><label>Si</label>
+								<input type="radio" id="no" name="preg" value="1"required /><label>No</label>
+							<div>
+						</fieldset>
+					<div id="botones">
+						<input  type="submit" id="bot"  required form="form" value="Registrar" />
+						<input  type="button" required form="form" value="Cancelar"/>
+					</div>
+
+					</form>				
+
+			</section>
+		
+</div>
+</section>
+<footer>
+	<div id="footers">
+		<small>Este cat&aacute;logo contiene una reserva de libros usados para el desarrollo Web @2012</small>
+	</div>
+</footer>
+</body>
+</html>   

@@ -1,0 +1,375 @@
+/* 
+    Document   : style
+    Created on : 6/11/2012, 10:40:05 AM
+    Author     : David
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+	margin:0;
+	padding: 0;		
+}
+
+a{
+	text-decoration: none;	
+}
+
+body{
+	color: #679fd2;
+	background: white;
+	font-family: "Milonga";
+	font-size: 16px;
+	
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 0;
+}
+
+fieldset{
+	border-radius: 10px;
+	color: #679fd2;
+	margin: 10px;
+	padding: 30px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;	
+
+}
+
+legend{
+	color: #679fd2;
+}
+
+header{
+	color: white;
+	background: #4A9FFF;
+	font-family: 'Henny_Penny';	
+	max-width: 100%;
+	min-height: 150px;
+	text-align: center;	
+}
+
+h1::first-letter {
+   color: white;
+   font-weight: bolder;
+   font-size: 100px;
+   line-height: 100px;
+   text-shadow: 10px 10px 1px rgba(0, 0, 0, .4), 10px 10px 1px rgba(0, 0, 0, 0.2);		 
+}
+
+
+img{
+	border: 0px;
+}
+
+section{	
+	color:white;
+	text-align: center;
+	margin-top: -40px;
+	behavior: url(js/PIE/pie.htc);  
+}
+
+section article:hover{
+	border: 1px solid #4A9FFF;
+	display: inline-block;
+	margin: 10px;
+	max-width: 180px;
+	max-height: 200px;
+	overflow: hidden;
+	behavior: url(js/PIE/pie.htc);
+}
+
+article #descripcion{
+	background: #000;
+	border: 0px;
+	border-radius: 10px;	
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+	margin-top: -206.5px;
+	width: 180px;
+	height: 200px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;	
+	-ms-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	-transition: all 1s ease-in;
+	-webkit-border-radius:10px;
+	opacity:0;
+
+}
+
+section #descripcion article{
+	border: 0px;
+	padding-top: 20px;
+}
+
+article:hover #descripcion{
+	opacity: .7;
+}
+
+section article img{
+	border-radius: 10px;
+	height: 200px;
+	overflow: hidden;
+	width: 180px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;	
+	behavior: url(js/PIE/pie.htc); 
+}
+
+
+section nav{
+	text-align: left;
+	vertical-align: top;
+}
+
+section nav ul{	
+	font-size: 20px;
+	margin-bottom: 5px;
+	padding:10px;
+}	
+
+section nav ul li{
+	display: inline-block;
+	padding-left: 40px;
+}
+
+section nav ul li a {
+	color:  #4A9FFF;
+	padding: 20px;
+}
+
+section nav ul li a:hover {
+	background: #4A9FFF;
+	color: white;
+	padding: 20px;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-transition: all .5s ease-in;	
+}
+
+label{	
+	margin-right: 5px;
+	display: inline-block;
+	text-align: left;
+	min-width: 100px;
+}
+
+input{
+	text-align: left;
+	
+}
+
+input[type="button"], input[type="submit"]{
+margin: 0;
+display: inline-block;
+width: 100px;
+padding: 5px;
+border: 2px solid #679fd2;
+border-radius: 10px;
+/*box-shadow: 0 0 .5em rgba(0, 0, 0, .8);*/
+color: #408dd2;
+ background: #D5F3FF;
+ background: #fff;
+ text-align: center;
+}
+
+
+input[type="submit"]:hover, input[type="submit"]:active, input[type="button"]:hover, input[type="button"]:active {
+cursor: pointer;
+background: #408dd2;
+color: #fff;
+}
+
+footer{
+	background: #4A9FFF;
+	color: white;
+	font-size: 16px;
+	max-width: 100%;
+	min-height: 50px;
+	max-height: auto;
+	text-align: center;
+	behavior: url(js/PIE/pie.htc);
+}	
+
+#autor{
+	float: left;
+	margin: 20px;
+	max-width: 500px;	
+}
+
+#botones{
+	margin: auto;
+	display: inline-block;	
+	text-align: center;
+	padding: 0px;
+}
+
+#images{
+    background:-webkit-linear-gradient(top,#80E9FF,white) ;
+    background:-moz-linear-gradient(top,#80E9FF,white) ;
+    background:-o-linear-gradient(top,#80E9FF,white) ;
+    background: linear-gradient(top,#80E9FF,white) ;
+    background: #D5F3FF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;    
+	box-shadow: 6px 0px 10px #999, -6px 0px 10px #999;
+	display: inline-block;
+	min-height: 520px;
+	max-width: 900px;
+	text-align: center;
+	
+}
+
+#nombredos{
+	/*background: #4A9FFF;*/
+	border-radius:10px;
+	/*border-bottom: 2px  #4A9FFF solid;*/
+	color:  #4A9FFF;
+	font-size: 30px;
+	font-family: 'Henny_Penny';	
+	font-weight: bold;
+	text-align: center;	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+
+}
+
+#nombredos::first-letter{
+   color:  #4A9FFF;
+   font-family: 'Henny_Penny';	
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 100px;
+   text-shadow: 5px 5px 1px rgba(0, 0, 0, .4), 5px 5px 1px rgba(0, 0, 0, 0.2);	
+}
+
+.campos{		
+	float: left;
+	margin: 10px;
+}
+
+#perfil{
+	float: left;
+	padding-right: 10px;
+	overflow: auto;
+	height: 60px;
+	width: 50px;
+}
+
+#texto{
+	color: #679fd2;
+	font-size: 16px;
+	padding:30px;
+	text-align: justify;
+}
+
+#titulo{
+	display: inline-block;	
+	text-align: center;
+	max-width: auto;
+}
+
+#titulo #nombre{
+	display: inline-block;	
+	float: left;
+	padding: 0px;
+}
+
+#titulo #social{
+	float: left;
+	padding: 40px;	
+}
+
+
+.img{
+	border: 1px solid;
+	border-radius:10px;	
+	box-shadow: 3px 0px 5px #999, 7px 0px 10px #999,10px 0px 13px #999, -3px 0px 5px #999;
+	display: inline-block;
+	margin: 10px;
+	max-width: 180px;
+	max-height: 200px;
+	overflow: hidden;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;	
+}
+
+@font-face{
+	font-family: 'Henny_Penny';
+	src: url('fonts/Henny_Penny/HennyPenny-Regular.ttf');	
+}
+
+@font-face{
+	font-family: 'Milonga';
+	src: url('fonts/Milonga/Milonga-Regular.ttf');	
+}
+
+@media screen and (max-width: 480px){
+h1{
+	font-size: 20px;
+}
+
+#imgheader{
+	width: 50px;
+	height: 50´px;
+}
+
+section nav ul li a {
+	color:  #4A9FFF;
+	padding: 0px;
+}	
+
+section nav ul li a:hover {
+	background: #4A9FFF;
+	color: white;
+	padding: 0px;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-transition: all .5s ease-in;	
+}
+
+#imgheader{
+	width: 50px;
+	height: 50´px;
+}
+}
+
+
+/*
+popup
+*/
+
+#mensaje{
+   z-index:2;
+   position:absolute;
+   border: 1px solid #333333;
+   text-align:center;
+   background:#000000;
+}
+#cerrar {
+   float:right;
+   margin-right:5px;
+   cursor:pointer;
+   font:Verdana, Arial, Helvetica, sans-serif;
+   font-size:12px;
+   font-weight:bold;
+   color:#FFFFFF;
+   background-color:#666666;
+   width:12px;
+   position:relative;
+   margin-top:-1px;
+   text-align:center;
+}
